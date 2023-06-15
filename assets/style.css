@@ -1,0 +1,72 @@
+/* Universal Selectors */
+
+:root {
+    --main: rgb(177, 233, 255);
+    --sec: linear-gradient(122deg, rgba(34,34,34,1) 13%, rgba(0,251,134,1) 100%);
+    --white: #eee;
+    --bgcolor: #121212;
+    --gray: #222;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0 0 100px;
+    background-color: var(--white);
+    font-family: sans-serif;
+}
+
+/* Header Styling */
+
+nav {
+    background-color: var(--gray);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-links li {
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    display: block;
+    color: var(--white);
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.nav-links a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Body Styling */
+
+.flex-links {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.flex-links img {
+    border: 1px black solid;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.img-container {
+    border: black 1px solid;
+}
+
+/* LEFT OFF WORKING ON IMG SIZES AND FLEX POSITIONING */
