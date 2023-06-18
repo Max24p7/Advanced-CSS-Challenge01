@@ -23,11 +23,13 @@ body {
 
 nav {
     background-color: var(--gray);
+    padding-left: 5px;
 }
 
 .nav-links {
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -53,6 +55,7 @@ nav {
 main {
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .flex-links {
@@ -105,10 +108,55 @@ main {
 
 .secondary-container h3 {
     position: absolute;
-    /* color: var(--white); */
     font-size: 40px;
 }
 
 #Brewery {
     color: var(--white);
+}
+
+#css-guide {
+    background-color: rgba(48, 48, 48, 0.6);
+    color: white;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#contact {
+    border-top: black 5px solid;
+    display:flex;
+    flex-direction: column;
+
+}
+
+#contact h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.contact-list {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.contact-list a {
+    color: black;
+    text-decoration: none;
+}
+
+.contact-list li {
+    padding: 5px 100px;
+    border-radius: 100px;
+    background-color: lightcoral;
+    margin: 10px;
 }
