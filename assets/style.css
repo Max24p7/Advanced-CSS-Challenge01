@@ -6,6 +6,9 @@
     --white: #eee;
     --bgcolor: #121212;
     --gray: #222;
+    --brown: #251a14;
+    --yellow: #b8b373;
+    --green: #9bc5a2;
 }
 
 html {
@@ -16,13 +19,13 @@ html {
 body {
     margin: 0 0 100px;
     background-color: var(--white);
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Header Styling */
 
 nav {
-    background-color: var(--gray);
+    background-color: var(--brown);
     padding-left: 5px;
 }
 
@@ -46,7 +49,7 @@ nav {
 }
 
 .nav-links a:hover, a:focus {
-    background-color: white;
+    background-color: var(--green);
     color: black;
 }
 
@@ -133,7 +136,6 @@ footer {
     border-top: black 5px solid;
     display:flex;
     flex-direction: column;
-
 }
 
 #contact h1 {
@@ -156,7 +158,10 @@ footer {
 
 .contact-list li {
     padding: 5px 100px;
-    border-radius: 100px;
-    background-color: lightcoral;
+    background-color: var(--yellow);
     margin: 10px;
+}
+
+.contact-list a li:hover {
+    background-color: white;
 }
