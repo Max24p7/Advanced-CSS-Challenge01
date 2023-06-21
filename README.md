@@ -12,9 +12,8 @@ Run the index.html file in a browser window or go to the github pages link here:
 
 ## Usage
 
-    ```md
-    ![Screenshot of page](.assets/screenshot.PNG/)
-    ```
+[Screenshot of page](assets/screenshot.PNG/)
+
 
 ## Credits
 
