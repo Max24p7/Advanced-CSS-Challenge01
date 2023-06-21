@@ -49,6 +49,7 @@ nav {
     transition: all 0.7s ease-out;
 }
 
+/* hover and focus styling */
 .nav-links a:hover, a:focus {
     background-color: var(--brown);
     color: var(--white);
@@ -80,7 +81,6 @@ main {
     outline: var(--brown) 3px solid; */
     border-radius: 10px;
     margin-top: 10px;
-    
 }
 
 h1 {
@@ -93,8 +93,6 @@ h1 {
 
 .flex-links {
     background: linear-gradient(180deg, rgba(155,197,162,1) 0%, rgba(37,26,20,1) 50%, rgba(184,179,115,1) 100%);
-    /* border-top: 5px black solid;
-    border-bottom: 5px black solid; */
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap;
@@ -197,6 +195,7 @@ footer {
     margin: 10px;
 }
 
+/* hover styling */
 .contact-list li:hover {
     font-weight: bolder;
     filter: drop-shadow(0 0 0.75rem var(--yellow));
